@@ -4,21 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JC</title>
+    <title>Jacob Constantinidis Portfolio</title>
     <link rel="stylesheet" href="./02-Homework/Assets/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./02-Homework/Assets/Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./02-Homework/Assets/Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./02-Homework/Assets/Images/favicon-16x16.png">
+    <link rel="manifest" href="./02-Homework/Assets/Images/site.webmanifest">
 </head>
 
 <body>
     <!--Top Banner, Navigation Contents and Hero image-->
     <section class="hero">
-        <header>
-            <nav>
-
-            </nav>
-        </header>
-
         <div class="hero-content">
-
+            <header>
+                <nav class="Navigation">
+                    <ul id="Nav-items">
+                        <li>
+                            <a href="heading-about-me">About me</a>
+                        </li>
+                        <li>Portfolio</li>
+                        <li>Contact me</li>
+                    </ul>
+                </nav>
+            </header>
             <h1 class="hero-title">
                 Jacob Constantinidis
             </h1>
@@ -27,20 +35,73 @@
                 Insert amazing quote here!
             </h2>
 
-            <button type="button" class="hero-button" onclick="location.href='tours.html'">
+            <button type="button" class="hero-button" href="#My-Portfolio">
                 See my work
             </button>
 
         </div>
+    </section>
+    <section>
         <!-- content-->
 
         <!--About me section-->
+        <div class="about-me">
+            <h1 class="heading-about-me">A Little About Me:</h1>
+            <p>
+                I am a student developer from Australia. I believe everyday we should be learning something new and
+                pushing ourselves to the limit.
 
-        <!--Large image of first project with link-->
+                My dream is to be an all round software developer with strengths in all areas.
 
-        <!--4 more example coming soon projects-->
+                Below you can see my journey as it starts and then progresses into more advanced projects.
+            </p>
+        </div>
+    </section>
 
-        <!--Footer containing my contact details with links-->
+    <!--Large image of first project with link-->
+    <section class="Application">
+        <div>
+            <h1 id="My-Portfolio">My Portfolio</h1>
+        </div>
+        <div><a href="https://jconstant112.github.io/Marketing-Agency-Homework/"><img class="Deployed-app"
+                    src="./02-Homework/Assets/Images/Project one.png" alt="Application-1"></a></div>
+    </section>
+    <!--4 more example coming soon projects-->
+    <section class="container">
+        <div><a href="none" target="_blank"><img class="item1" src="02-Homework/Assets/Images/example-1.jpg"
+                    alt="application-2"></a>
+        </div>
+        <div><a href="none" target="_blank"><img class="item2" src="02-Homework/Assets/Images/example-2.jpg"
+                    alt="application-3"></a>
+        </div>
+        <div><a href="none" target="_blank"><img class="item3" src="02-Homework/Assets/Images/example-3.jpg"
+                    alt="application-4"></a>
+        </div>
+        <div><a href="none" target="_blank"><img class="item4" src="02-Homework/Assets/Images/example-4.jpg"
+                    alt="application-5"></a>
+        </div>
+        </div>
+    </section>
+    <!--Footer containing my contact details with links-->
+    <footer>
+        <h1>Get in Touch</h1>
+        <div class="contact links">
+            <ul>
+                <li>Email</li>
+                <li>github</li>
+                <li>facebook</li>
+                <li>twitter</li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
 </body>
 
 </html>
