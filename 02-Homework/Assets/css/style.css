@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
+    letter-spacing: 3px;
 }
 
 img {
@@ -121,6 +122,8 @@ ul#Nav-items {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
+    height: 400px;
+    width: 450px;
 }
 
 #app-1-title {
@@ -145,8 +148,8 @@ ul#Nav-items {
 .item2,
 .item3,
 .item4 {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     max-width: 100%;
 }
 
@@ -167,6 +170,10 @@ ul#Nav-items {
 
 #top {
     align-content: center;
+}
+
+ul {
+    list-style-type: none;
 }
 
 footer {
