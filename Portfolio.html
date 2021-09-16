@@ -20,10 +20,14 @@
                 <nav class="Navigation">
                     <ul id="Nav-items">
                         <li>
-                            <a href="heading-about-me">About me</a>
+                            <a href="#heading-about-me">About Me</a>
                         </li>
-                        <li>Portfolio</li>
-                        <li>Contact me</li>
+                        <li>
+                            <a href="#My-Portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact-me">Contact me</a>
+                        </li>
                     </ul>
                 </nav>
             </header>
@@ -35,9 +39,7 @@
                 Insert amazing quote here!
             </h2>
 
-            <button type="button" class="hero-button" href="#My-Portfolio">
-                See my work
-            </button>
+
 
         </div>
     </section>
@@ -46,14 +48,13 @@
 
         <!--About me section-->
         <div class="about-me">
-            <h1 class="heading-about-me">A Little About Me:</h1>
+            <h1 id="heading-about-me">A Little About Me:</h1>
+
+            <img id="Profile-photo" src="./02-Homework/Assets/Images/profile photo.jpg" alt="Profile-img" width="480px" height="400px">
+
             <p>
-                I am a student developer from Australia. I believe everyday we should be learning something new and
-                pushing ourselves to the limit.
-
-                My dream is to be an all round software developer with strengths in all areas.
-
-                Below you can see my journey as it starts and then progresses into more advanced projects.
+                I am a student developer from Australia. I believe everyday we should be learning something new and pushing ourselves to the limit. My dream is to be an all round software developer with strengths in all areas. Below you can see my journey as it starts
+                and then progresses into more advanced projects.
             </p>
         </div>
     </section>
@@ -63,35 +64,45 @@
         <div>
             <h1 id="My-Portfolio">My Portfolio</h1>
         </div>
-        <div><a href="https://jconstant112.github.io/Marketing-Agency-Homework/"><img class="Deployed-app"
-                    src="./02-Homework/Assets/Images/Project one.png" alt="Application-1"></a></div>
+        <div>
+            <h2 id="app-1-title">Marketing agency refactor work</h2>
+            <a href="https://jconstant112.github.io/Marketing-Agency-Homework/"><img class="Deployed-app" src="./02-Homework/Assets/Images/Project one.png" alt="Application-1"></a>
+        </div>
     </section>
     <!--4 more example coming soon projects-->
     <section class="container">
-        <div><a href="none" target="_blank"><img class="item1" src="02-Homework/Assets/Images/example-1.jpg"
-                    alt="application-2"></a>
+        <div>
+            <h1 class="example">example-1</h1>
+            <a href="none" target="_blank"><img class="item1" src="02-Homework/Assets/Images/example-1.jpg" alt="application-2"></a>
         </div>
-        <div><a href="none" target="_blank"><img class="item2" src="02-Homework/Assets/Images/example-2.jpg"
-                    alt="application-3"></a>
+        <div>
+            <h2 class="example">example-2</h2>
+            <a href="none" target="_blank"><img class="item2" src="02-Homework/Assets/Images/example-2.jpg" alt="application-3"></a>
         </div>
-        <div><a href="none" target="_blank"><img class="item3" src="02-Homework/Assets/Images/example-3.jpg"
-                    alt="application-4"></a>
+        <div>
+            <h3 class="example">example-3</h3>
+            <a href="none" target="_blank"><img class="item3" src="02-Homework/Assets/Images/example-3.jpg" alt="application-4"></a>
         </div>
-        <div><a href="none" target="_blank"><img class="item4" src="02-Homework/Assets/Images/example-4.jpg"
-                    alt="application-5"></a>
+        <div>
+            <h4 class="example">example-4</h4>
+            <a href="none" target="_blank"><img class="item4" src="02-Homework/Assets/Images/example-4.jpg" alt="application-5"></a>
         </div>
         </div>
     </section>
     <!--Footer containing my contact details with links-->
     <footer>
-        <h1>Get in Touch</h1>
-        <div class="contact links">
-            <ul>
+        <h1 id="contact-me">Get in Touch</h1>
+        <div>
+            <ul id="contact-links">
                 <li>Email</li>
                 <li>github</li>
                 <li>facebook</li>
                 <li>twitter</li>
             </ul>
+
+        </div>
+        <div id="Top">
+            <a href="#Nav-items">Top of page</a>
         </div>
     </footer>
 

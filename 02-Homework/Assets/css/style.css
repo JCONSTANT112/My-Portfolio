@@ -1,11 +1,25 @@
-
 body {
     margin: 0;
     padding: 0;
     background-color: black;
- }
+}
 
- .hero {
+img {
+    border-radius: 5%;
+    max-width: 100%;
+}
+
+a {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    color: gray;
+}
+
+.hero {
     position: relative;
     width: 100vw;
     height: 100vh;
@@ -26,75 +40,68 @@ body {
     background-size: cover;
     background-position: center center;
     filter: brightness(60%);
- }
- .hero-content {
+}
+
+.hero-content {
     position: relative;
     font-family: "Monserrat", sans-serif;
     color: white;
     text-align: center;
     margin: 0.625rem;
- }
+}
 
- .navigation {
-     font-size: 2rem;
-     font-weight: 200;
-     margin-bottom: 50%;
- }
+.navigation {
+    font-size: 2rem;
+    font-weight: 200;
+    margin-bottom: 50%;
+}
 
- ul#Nav-items {
+ul#Nav-items {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
 
- .hero-title {
+.hero-title {
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 0;
- }
- .hero-subtitle {
+}
+
+.hero-subtitle {
     font-size: 2rem;
     font-weight: 200;
     margin-top: 1rem;
- }
- .hero-button {
-    background-color: transparent;
-    color: white;
-    border: 1px solid whitesmoke;
-    margin-top: 5rem;
-    padding: 0.9375rem1.875rem;
-    font-family: "Monserrat", sans-serif;
-    font-size: 1.125rem;
-    font-weight: 200;
-    cursor: pointer;
- }
- .hero-button:hover {
-    background-color: #a8ccdbde;
-    border: 1px solid #2224a16b;
- }
+}
 
-.heading-about-me {
-display: flex;
-justify-content: space-around;
-font-size: 30px;
+#heading-about-me {
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
     font-weight: 600;
     margin-top: 5rem;
     margin-bottom: 5rem;
     text-align: -webkit-center;
-    filter: blur(0.6px);
- }
- 
- .about-me {
- color: white;
- font-family: "Monserrat", sans-serif;
- font-size: 16px;
+    filter: blur(0.4px);
+}
+
+#profile-photo {
+    width: 5px;
+    height: 5px;
+    border-radius: 20pc;
+}
+
+.about-me {
+    color: white;
+    font-family: "Monserrat", sans-serif;
+    font-size: 16px;
     font-weight: 600;
     margin-top: 1rem;
     filter: brightness(80%);
     text-align: -webkit-center;
     filter: brightness(75%);
-    filter: blur(0.6px);
- }
+    filter: blur(0.4px);
+}
 
 #My-Portfolio {
     display: flex;
@@ -103,26 +110,67 @@ font-size: 30px;
     font-family: "Monserrat", sans-serif;
     font-size: 25px;
     font-weight: 600;
-    margin-top: 1rem;
+    margin-top: 80px;
+    margin-bottom: 80px;
     text-align: -webkit-center;
     filter: blur(0.6px);
 }
 
 .Deployed-app {
-    max-width: 600px;
+    max-width: 100%;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 50px;
 }
 
-
-.item1, .item2, .item3, .item4 {
-width: 400px;
-height: 400px;
+#app-1-title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Monserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 1rem;
 }
 
- footer {
-     display: flex;
-     justify-content: space-around;
-     color: white;
- }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+}
+
+.example {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Monserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.contact-links {
+    display: flex;
+    list-style-type: none;
+}
+
+#top {
+    align-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
