@@ -30,7 +30,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     
 # ![Screenshot-3](Assets/Images/Screenshot3.png)
 
-# <a href="https://jconstant112.github.io/My-Portfolio/" target="_blank">My Portfolio</a>
+# <a href="https://jconstant112.github.io/My-Portfolio/index.html" target="_blank">My Portfolio</a>
     
 ## Credits
 Jacob Constantinidis
